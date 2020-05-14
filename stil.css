@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	font: bold 14px Roboto, sans-serif;
+}
+/*hesap makinesi başlığı*/
+h3{
+  font-size:40px;
+  color: red;
+}
+html {
+	height: 100%;
+	background: white;
+	background: radial-gradient(circle, #fff 20%, #ccc);
+	background-size: cover;
+}
+/*hesap makinesi arka plan*/
+#hesap-makinesi {
+	width: 550px;
+	height: 500px;
+	margin: 10px auto 100px;
+	padding: 20px 20px 9px;
+	background: #9dd2ea;
+	background: linear-gradient(yellow,green,orange,pink, purple, blue);
+	border-radius: 8px 3px;
+	
+}
+
+/* üst taraf*/
+.ust span.temizle {
+	float: right;
+}
+
+.ust .ekran {
+	
+	height: 80px;
+	width: 360px;
+	float: left;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 35px 5px;
+	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+	font-size: 35px;
+	line-height: 40px;
+	color: rgb(255, 190, 190);
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-align: right;
+	letter-spacing: 1px;
+	margin:7px  ;
+}
+
+.tuslar, .ust {overflow: hidden;
+}
+
+.tuslar span, .ust span.temizle {
+	width: 125px;
+	height: 80px;
+	display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+	float: left;
+	position: relative;
+	background: white;
+    border-radius: 45px 5px;
+	color: #888;
+	user-select: none;
+	background-color:rgb(214, 214, 38);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 30px;
+
+}
+
+
+.tuslar span.operator {
+	background:rgb(88, 67, 165);
+	margin-right: 0;
+	color:black;
+}
+
+.tuslar span.esittir {
+	background: yellowgreen;
+	color: black;
+}
+
+.ust span.temizle {
+	background: #ff9fa8;
+	color: red;
+}
+
+.tuslar span:hover {
+	background: #9c89f6;
+	color: black;
+}
+
+.tuslar span.esittir:hover {
+	background: red;
+	color: black;
+}
+
+.ust span.temizle:hover {
+	background: palevioletred;
+	color:black;
+}
+
+.baslik {
+  text-align: center;
+}
